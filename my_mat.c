@@ -9,7 +9,6 @@ int mat[V][V];
 
 void fun1()
 {
-    printf("im in fun1 \n");
     for (int i = 0; i < V; i++)
     {
         for (int j = 0; j < V; j++)
@@ -22,7 +21,6 @@ void fun1()
 
 void fun2()
 {
-    printf("im in fun2 \n");
     int a, b;
     scanf("%d%d", &a, &b);
     if (mat[a][b] != 0)
@@ -37,7 +35,6 @@ void fun2()
 
 void fun3()
 {
-    printf("im in fun3 \n");
     int a, b;
     scanf("%d%d", &a, &b);
     if (mat[a][b] == 0 || a == b)
