@@ -49,15 +49,6 @@ void fun3()
 
 void calc_dis()
 {
-    for (int i = 0; i < V; i++)
-    {
-        for (int j = 0; j < V; j++)
-        {
-            printf("%d ", mat[i][j]);
-        }
-        printf("\n");
-    }
-    printf("\n");
     for (int k = 0; k < V; k++)
     {
         for (int i = 0; i < V; i++)
@@ -80,11 +71,8 @@ void calc_dis()
                     }
                     mat[i][j] = min(mat[i][j], val);
                 }
-                printf("%d ", mat[i][j]);
             }
-            printf("\n");
         }
-        printf("\n");
     }
 }
 
